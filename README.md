@@ -107,8 +107,8 @@ public class NewText implements WritableComparable<NewText>{
   public String geta()
   public int getfre()
   public String toString()
-  public void readFields(DataInput in) throws IOException
-  public void write(DataOutput out) throws IOException
+  public void readFields(DataInput in)
+  public void write(DataOutput out)
   public int compareTo(NewText o)
 }
 ```
